@@ -1,3 +1,4 @@
-Economicas, Ulloa y America, 2553699, 0.12
-Medicity, El Inca, 3215814, 0.36
-Sana Sana, America, 2553699, 0.27
+Sana Sana, America, 2553699, 0.15, True
+Medicity, 10 de Agosto, 3215482, 0.36, False
+Sana Sana,  America, 0998902608,  0.15,  True
+
