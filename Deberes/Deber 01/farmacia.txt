@@ -1,4 +1,12 @@
-Sana Sana, America, 2553699, 0.15, True
-Medicity, 10 de Agosto, 3215482, 0.36, False
-Sana Sana,  America, 0998902608,  0.15,  True
-
+nombre1, nombre1, 123, 24.05, True
+nombre2, nombre2, 456, 56.2, False
+nombre3, nombre3, 789, 45.25, True
+nombre1,  nombre1,  123,  24.05,  True
+nombre2, America,  456,  56.2,  False
+nombre3,  nombre3,  789,  45.25,  True
+nombre1,   nombre1,   123,   24.05,   True
+nombre2,  America,   456,   56.2,   False
+nombre3, La Villaflora,   789,   45.25,   True
+nombre1, Mexico,    123,    24.05,    True
+nombre2,   America,    456,    56.2,    False
+nombre3,  La Villaflora,    789,    45.25,    True
