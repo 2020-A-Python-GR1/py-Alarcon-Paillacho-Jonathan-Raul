@@ -1,12 +1,1 @@
-nombre1, nombre1, 123, 24.05, True
-nombre2, nombre2, 456, 56.2, False
-nombre3, nombre3, 789, 45.25, True
-nombre1,  nombre1,  123,  24.05,  True
-nombre2, America,  456,  56.2,  False
-nombre3,  nombre3,  789,  45.25,  True
-nombre1,   nombre1,   123,   24.05,   True
-nombre2,  America,   456,   56.2,   False
-nombre3, La Villaflora,   789,   45.25,   True
-nombre1, Mexico,    123,    24.05,    True
-nombre2,   America,    456,    56.2,    False
-nombre3,  La Villaflora,    789,    45.25,    True
+nombre1,nombre1,123,24.05,True
