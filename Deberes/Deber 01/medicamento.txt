@@ -2,3 +2,5 @@ Colita de Rana,Levotiroxina,11.99,06-04-2020,125,False
 Mata Sanos,Purina Dog Chow,13.5,06-04-2020,126,False
 Sana Sana,Generico,45.63,04-04-2020,154,True
 tontin,hola,18.75,04-05-2019,125,True
+Sana Sana,Paracetamol,0.35,04-07-2020,153,True
+Sana Sana,Dopamina,1.57,07-05-2020,125,True
