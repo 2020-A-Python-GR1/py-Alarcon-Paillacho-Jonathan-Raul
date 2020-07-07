@@ -1,0 +1,2 @@
+Sana Sana,Paracetamol,0.35,04-05-2020,125,True
+Medicity,Finalin,0.25,04-06-2020,135,True
