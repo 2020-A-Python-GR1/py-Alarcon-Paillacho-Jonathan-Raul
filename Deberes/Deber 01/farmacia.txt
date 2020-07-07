@@ -1,2 +1,2 @@
-Sana Sana,America y Rio de Janeiro,3215482,0.23,True
 Medicity,Colon y 6 de diciembre,2553699,0.21,True
+Farmacias Economicas,La vicentina,2553699,0.2,True
