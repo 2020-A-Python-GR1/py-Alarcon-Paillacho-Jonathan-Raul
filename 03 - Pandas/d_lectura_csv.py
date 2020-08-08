@@ -23,13 +23,17 @@ df2 = pd.read_csv(
 
 df3 = pd.read_csv(
     path,
-    nrows = 10,
+    #nrows = 10,
     usecols = columnas,
     index_col= 'id' )
 
 
 #Para guardar los datos en un nuevo archivo
-path = "C:\\Users\\Familia\\Documents\\GitHub\\py-Alarcon-Paillacho-Jonathan-Raul\\03 - Pandas\\data\\artwork_data.csv"
+path_guardado = "C:\\Users\\Familia\\Documents\\GitHub\\py-Alarcon-Paillacho-Jonathan-Raul\\03 - Pandas\\data\\artwork_data.pickle"
+
+df3.to_pickle(path_guardado)
+
+df4 = pd.read_pickle(path_guardado)
 
 
 
