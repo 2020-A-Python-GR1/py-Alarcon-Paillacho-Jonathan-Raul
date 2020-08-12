@@ -10,6 +10,7 @@ import pandas as pd
 import numpy as np
 import os
 import sqlite3
+import xlsxwriter
 
 path_guardado = "C:\\Users\\Familia\\Documents\\GitHub\\py-Alarcon-Paillacho-Jonathan-Raul\\03 - Pandas\\data\\artwork_data.pickle"
 
@@ -92,6 +93,8 @@ with sqlite3.connect("bdd_artist.bdd") as conexion:
 sub_df.to_json('artistas.json')
 
 sub_df.to_json('artistas_tabla.json', orient = 'table')
+
+
 
 
 
