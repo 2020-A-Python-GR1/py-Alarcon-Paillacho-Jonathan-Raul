@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrapy</title>
+    <style>
+        /* ID
+            # + nombreID
+        */
+        #titulo-uno{
+            background-color: brown;
+        }
+        /* NOMBRE-ETIQUETA
+            nombre-etiqueta
+        */
+        h1{
+            background-color: chartreuse;
+        }
+        body{
+            color:darkcyan;
+            background-color: darkkhaki;
+        }
+        p{
+            background-color: coral;
+        }
+        /* Clase
+            . + nombre-clase
+        */
+        .fondo-rosado{
+            background-color: deeppink;
+        }
+
+        .fondo-2{
+            background-color:gold;
+        }
+
+        .fondo-3{
+            background-color:lime;
+        }
+
+        /* JERARQUIA
+            STYLE > ID > CLASE > ETIQUETA
+            ultimo definido > mayor jerarquia
+        */
+
+        /*ETIQUETA DENTRO DE OTRA ETIQUETA */
+        li > p {
+            background-color: violet;
+        }
+
+        body > ul > li > p {
+            background-color: blueviolet;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 id = "titulo-uno">HOLA MUNDO SOY JONATHAN</h1>
+    <h1>ME GUSTA EL CICLISMO</h1>
+    <h1 class="fondo-rosado">Me gusta el basquet</h1>
+    <p>Primer experiencia en bicicleta</p>
+    <p 
+        class="fondo-rosado fondo-3 fondo-2"
+        style="background-color:black;"
+        id = "titulo-uno"    
+    >Segundo titulo</p>
+    <p class="fondo-rosado">Tercer Titulo</p>
+
+    <ul>
+        <li>Uno</li>
+        <li><p>Dos</p></li>
+        <li>Tres</li>
+    </ul>
+
+    <li><p>Fuera de UL</p></li>
+
+
+</body>
+</html>
