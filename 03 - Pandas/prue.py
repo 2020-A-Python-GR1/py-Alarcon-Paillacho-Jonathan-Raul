@@ -36,3 +36,19 @@ num = serie_anio.value_counts()[:10].values
 plataforma = df_anio['Name']
 top_mas_usadas = plataforma.value_counts()[:5].index.to_list()
 mas_compras = plataforma.value_counts()[:5].values
+
+
+anio1 = df1['Year'] == 2013
+df_anio1 = df1[anio1]
+ventas = df_anio1['NA_Sales'] > 5.0
+df_ventas = df_anio1[ventas]
+df_nombre = df_ventas['Name']
+df_generos = df_ventas['Genre']
+
+
+anio1 = df1['Year'] == 2000
+df_anio1 = df1[anio1]
+plataforma = df_anio1['Platform']
+top_mas_usadas = plataforma.value_counts()[:5].index.to_list()
+mas_compras = plataforma.value_counts()[:5].values
+
